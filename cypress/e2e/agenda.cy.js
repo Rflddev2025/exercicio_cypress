@@ -1,6 +1,6 @@
 describe('Agenda de Contatos', () => {
     beforeEach(() => {
-        cy.visit('http://http://localhost:63841');
+        cy.visit('https://fake-api-tau.vercel.app/api/contatos');
     });
 
     it('deve adicionar um novo contato', () => {
