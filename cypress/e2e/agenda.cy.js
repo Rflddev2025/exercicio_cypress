@@ -1,6 +1,6 @@
 describe('Agenda de Contatos', () => {
     beforeEach(() => {
-        cy.visit('https://fake-api-tau.vercel.app/api/contatos');
+        cy.visit(' https://agenda-contatos-react.vercel.app/');
     });
 
     it('deve adicionar um novo contato', () => {
